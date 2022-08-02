@@ -4,6 +4,7 @@ using namespace std;
 
 int main() {
 	int n;
+	cout<<"Enter the total numbers in the list:";
 	cin>>n; 
 	
 	int arr[n];
