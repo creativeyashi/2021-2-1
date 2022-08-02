@@ -6,13 +6,14 @@ int main()
 {
 	int a;
 	cin>>a;
-	int i=1;
+	
+	int count=1;
 	while(--a)
 	{
-	    cout<<i<<", ";
-	    i += 2;
+	    cout<<count<<", ";
+	    count += 2;
 	}
-	cout<<i;
+	cout<<count;
 	return 0;
 }
 
